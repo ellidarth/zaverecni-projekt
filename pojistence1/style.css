@@ -1,0 +1,61 @@
+.content_all{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.cont_data {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.input_data {
+    height: 30px;
+    font-size: 20px;
+
+}
+.table_client {
+    width: 80%;
+    margin: 20px auto;
+    border: solid 5px gray;
+    min-height: 400px;
+  
+}
+#pridat{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+table{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.table_client tr{
+    margin: 0;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.table_client td{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid gray;
+    width: 25%;
+}
+.Title_table{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid gray;
+    width: 25%;
+}
